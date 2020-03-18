@@ -3,3 +3,4 @@
 
 # Redirect default Netlify subdomain to primary domain
 http://goofy-nobel-042d71.netlify.com/* http://www.theammps.com/:splat 301!
+http://goofy-nobel-042d71.netlify.com/ http://www.theammps.com/
