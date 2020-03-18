@@ -19,13 +19,8 @@
 	<script src="js/all.js"></script>
 	<script src="js/jquery.touchSwipe.min.js"></script>
 	<!--Touch Swipe-->
-
-	<script type="text/javascript">
-	
-	  
+	<script type="text/javascript">  
 $(document).ready(function(){
-
-      
   $(".carousel").carousel({
     // auto
     interval: false,
@@ -59,7 +54,7 @@ $(document).ready(function(){
   	var scroll = $(window).scrollTop();
 	  if (scroll > 300) {
 	    $(".my-nav").css("position" , "fixed");
-		$(".my-nav").css("background" , "#2F4F4F");
+		$(".my-nav").css("background" , "#404040");
 	  }
 	  else if (medquery.matches) {
        $(".my-nav").css("position" , "sticky");
@@ -70,22 +65,16 @@ $(document).ready(function(){
 	    $(".my-nav").css("position" , "absolute");
 		$(".my-nav").css("background" , "none");  	
 	  }
-  });
-});
-
-
-  
+     });
+    });
 		function myFunction(x) {
   		x.classList.toggle("change");
 	}
 	</script>
-
 	<link href="style.css" rel="stylesheet">
 </head>
 <body>
-
 <!-- Navigation -->
-
 <nav class="navbar navbar-expand-xl  sticky-top my-nav col-12">
 	<div class="container-fluid">
 		<a class="navbar-brand" href="#"><img src="img/Ammps_logo_2.png"></a>
@@ -116,9 +105,7 @@ $(document).ready(function(){
 	    </div>
 	</div>
 </nav>
-
 <!--- Image Slider -->
-
 	 <!-- Carousel desktop view -->
 <div id="slides" class="carousel slide my-carousel carousel-desktop" data-ride="carousel">
    <!--  <div class="container-fluid"> -->
@@ -187,7 +174,6 @@ $(document).ready(function(){
 	</div>
 
 <!--- Our Vision -->
-
 <div id="vision" class="container-fluid padding-top our-vision">
 	<div class="row Vision text-center">
 		<div class="col-12">
@@ -205,15 +191,13 @@ $(document).ready(function(){
 <div class="container-fluid testimonial-title padding-top" id="testimonials">
 	<div class="row text-center">
 		<div class="col-12">
-		<h1 class="display-4">Testimonials</h1>	
-		</div>		
+		<h1 class="display-4">Testimonials</h1>
+		</div>
 	</div>
 </div>
-
-
 <div id="testimonial-slides"  class="carousel slide carousel-testimonials carousel-testimonials-desktop padding" data-ride="carousel">
    <!--  <div class="container-fluid"> -->
-	<ul class="carousel-indicators">
+	<ul class="carousel-indicators arousel-testimonials-indicators">
 		<li data-target="#testimonial-slides" data-slide-to="0" class="active"></li>
 		<li data-target="#testimonial-slides" data-slide-to="1"></li>
 		<li data-target="#testimonial-slides" data-slide-to="2"></li>
@@ -244,21 +228,7 @@ $(document).ready(function(){
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="carousel-item">   
-			<div class="row padding">
-				<div class="col-md-4 card-margin-leftx">
-					<div class="card">
-						<img src="img/testimonial/testimonial_1.jpeg" class="card-img-top">
-						<div class="card-body">
-							<h4 class="card-title">Anantha Sharof</h4>
-							<p class="card-text">Prassana sir has been coming to my family for the last eight years and he is like family to us. He has been instrumental in bringing music to our home. He has taught my kids Guitar and helped me rekindle my lost love for Piano.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-				
+		</div>	
 	</div>
 		 <a class="carousel-control-prev" href="#testimonial-slides" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -359,42 +329,31 @@ $(document).ready(function(){
 			<h2>Mr Prasanna </h2>
 			</div>
 			</div>
+				<p class="lead">Mr Prasanna Timothy is an old bangalorean. He is been teaching music for the past 20 years. His love for music started from a very young age. Though strived in different job roles, his passion for music still stays alive. </p>
 
-		<p>The columns will automatically stack on top of each other when the s creen is less than 576px Wide.</p>
-			<p>Resize the browser window to see the effect. Responsive web design has become more important as the amount of mobile traffic now accounts for more than half of total internet traffic</p>
-			<p>It can also display the web page differently depending on the screen size or viewing device. </p>
+				<p class="lead">He started his musical journey by playing piano in chruch and leading the chruch choir. He worked as a music teacher in various schools and musical institutions. He has performed on many stages as a band member and
+				a solo artist. His teaching method has brought a difference in many lifes.</p>
 		</div>
 		
 	</div>
 </div>
 <!--- Fixed background -->
-
-
-<!--- Emoji Section -->
-
-  
+<!--- Emoji Section --> 
 <!--- Meet the team -->
-
-
 <!--- Cards -->
-
-
 <!--- Two Column Section -->
-
-
 <!--- Connect -->
 <div class="container-fluid padding">
 	<div class="row text-center padding">
 		<div class="col-12 social padding">
-			<a href=""><i class="fab fa-facebook"></i></a>
+			<a target="_blank" href="https://www.facebook.com/0AMMPS/"><i class="fab fa-facebook"></i></a>
 			<a href=""><i class="fab fa-twitter"></i></a>
 			<a href=""><i class="fab fa-google-plus-g"></i></a>
-			<a href=""><i class="fab fa-instagram"></i></a>
-			<a href=""><i class="fab fa-youtube"></i></a>
+			<a target="_blank" href="https://www.instagram.com/ammps_official/"><i class="fab fa-instagram"></i></a>
+			<a target="_blank" href="https://www.youtube.com/watch?v=ZSSuUfzPzHI&list=UUHVBcjuKdU7wQDD2vimOr5A&index=18"><i class="fab fa-youtube"></i></a>
 		</div>
 	</div>
 </div>
-
 <!--- Footer -->
 <div id="contact" class="container-fluid contact-us">
 	<div class="row text-center">
@@ -403,24 +362,22 @@ $(document).ready(function(){
 		</div>
 	</div>
 </div>
-
 <footer class="container-fluid padding footer">
 	<div class="row text-center">
 		<div class="col-md-6">
 			<img src="img/Drum_Footer.png">
-			<p>999-999-999</p>
-			
+			<p>Mobile : 9980154127</p>
 		</div>
 		<div class="col-md-6">
 			<img src="img/piano_Footer.png">
-			<p>email@gmail.com</p>
+			<p>theammps@gmail.com</p>
 		</div>
 	</div>
 </footer>
 <div class="container-fluid padding copy-right">
 	<div class="row text-center">
 		<div class="col-12 ">
-			<h5>&copy; ammpsmusic.com</h5>
+			<h5>2020 &copy; theammps.com</h5>
 		</div>	
 	</div>
 </div>

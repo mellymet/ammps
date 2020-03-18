@@ -16,7 +16,7 @@ html, body {
   padding: 1rem 2rem !important;
 }
 .padding-top {
-  padding-top: 5.5rem;
+  padding-top: 6.5rem;
 }
 .navbar-nav li {
   padding-right: 20px;
@@ -89,6 +89,9 @@ html, body {
 .testimonial-title h1 {
   color: white;
 }
+.arousel-testimonials-indicators {
+  display: none;
+}
 .carousel-testimonials p, .carousel-testimonials h3  {
   color: white;
 }
@@ -145,7 +148,7 @@ html, body {
    color: #d5d5d5;
 }
 footer {
-  background-color: #114040;
+  background-color: #343D46;
   color: #d5d5d5;
   padding-top: 2rem;
 }
@@ -159,7 +162,7 @@ footer {
   color: white;
 }
 .contact-us {
-  background-color: #114040;
+  background-color: #343D46;
   padding-top: 1%;
 }
 .contact-us h2 {
