@@ -25,6 +25,8 @@
 	<!--Touch Swipe-->
 	<script type="text/javascript">  
 $(document).ready(function(){
+
+
   $(".carousel").carousel({
     // auto
     interval: false,
@@ -42,7 +44,7 @@ $(document).ready(function(){
     threshold: 0,
     tap: function(event, target) {
       // get the location: in my case the target is my link
-     console.log(this);
+     //console.log(this);
       $('this').find('.carousel-item.active a').attr('href');
 
     },
@@ -71,10 +73,20 @@ $(document).ready(function(){
 	  }
      });
     });
+
+     // Mobile Navigation bars change
 		function myFunction(x) {
   		x.classList.toggle("change");
 	}
+
+	// Mobile close navigation bar when clicked on the menu titles
+		function navBar() {
+			$( document ).ready(function() {
+             $(".navbar-toggler").click();
+			});
+		}
 	</script>
+
 	<link href="style.css" rel="stylesheet">
 </head>
 <body>
@@ -90,20 +102,20 @@ $(document).ready(function(){
 	    <div class="collapse navbar-collapse" id="navbarResponsive">
 	    	<ul class="navbar-nav ml-auto">
 	    		<li class="nav-item">
-	    			<a class="nav-link"  href="#">Home</a>
+	    			<a class="nav-link" onclick="navBar()" href="#">Home</a>
 	    		</li>
 	    		<li class="nav-item">
-	    			<a class="nav-link" href="#testimonials">Testimonials</a>
+	    			<a class="nav-link" onclick="navBar()" href="#testimonials">Testimonials</a>
 	    		</li>
 	    		<li class="nav-item">
-	    			<a class="nav-link" href="#vision">Our Vision</a>
+	    			<a class="nav-link" onclick="navBar()" href="#vision">Our Vision</a>
 	    		</li>
 	    		<li class="nav-item">
-	    			<a class="nav-link" href="#teaching-method">Teaching Methods</a>
+	    			<a class="nav-link" onclick="navBar()" href="#teaching-method">Teaching Methods</a>
 	    		</li>
 	    		
 	    		<li class="nav-item">
-	    			<a class="nav-link" href="#contact">Contact Us</a>
+	    			<a class="nav-link" onclick="navBar()" href="#contact">Contact Us</a>
 	    		</li>
 	    	</ul>
 	    </div>
